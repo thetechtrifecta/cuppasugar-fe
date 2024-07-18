@@ -1,6 +1,14 @@
-# Material UI - Next.js App Router example in TypeScript
+# CuppaSugar
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped using [`create-next-app`](https://github.com/vercel/next.js/tree/HEAD/packages/create-next-app) with Material UI installed.
+MVT TBD
+
+## Technologies
+
+- React library for modern and efficient UI updates and rendering  
+- Next.js framework with App Router for full-stack-optimized routing, data fetching and performance with server-side-rendering (SSR)  
+- TypeScript syntax for type safety  
+- MUI library for highly customizable and responsive design components (albeit at the cost of some SSR on Next.js)  
+- Vercel (by Next.js) platform for easy deployment and scalable hosting  
 
 ## How to use
 
@@ -24,22 +32,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 or:
 
-<!-- #default-branch-switch -->
-
-[![Edit on StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/mui/material-ui/tree/master/examples/material-ui-nextjs-ts)
-
-[![Edit on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/github/mui/material-ui/tree/master/examples/material-ui-nextjs-ts)
-
-## Learn more
-
-To learn more about this example:
-
-- [Next.js documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Customizing Material UI](https://mui.com/material-ui/customization/how-to-customize/) - approaches to customizing Material UI.
-
-## What's next?
-
-<!-- #default-branch-switch -->
-
-You now have a working example project.
-You can head back to the documentation and continue by browsing the [templates](https://mui.com/material-ui/getting-started/templates/) section.
+[![Edit thetechtrifecta/cuppasugar-fe/main](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/github/thetechtrifecta/cuppasugar-fe/main?import=true&embed=1)
