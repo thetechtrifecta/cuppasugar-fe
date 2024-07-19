@@ -21,17 +21,14 @@ export default function NavBar() {
         }}
       >
         <Box sx={{ maxWidth: 'sm' }}>
-          <Button variant="contained" component={NextLink} href="/dashboard" sx={{ margin: .25 }}>
-            Dashboard
+          <Button variant="contained" component={NextLink} href="/asks" sx={{ margin: .25 }}>
+            All Asks
           </Button>
-          <Button variant="contained" component={NextLink} href="/profile" sx={{ margin: .25 }}>
-            Profile
+          <Button variant="contained" component={NextLink} href="/asks" sx={{ margin: .25 }}>
+            Open Asks
           </Button>
-          <Button variant="contained" component={NextLink} href="/signup" sx={{ margin: .25 }}>
-            Signup
-          </Button>
-          <Button variant="contained" component={NextLink} href="/signin" sx={{ margin: .25 }}>
-            Signin
+          <Button variant="contained" component={NextLink} href="/asks" sx={{ margin: .25 }}>
+            Your Asks
           </Button>
         </Box>
       </Box>

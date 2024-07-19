@@ -7,6 +7,7 @@ import NextLink from 'next/link';
 import Copyright from '@/components/Copyright';
 import Button from '@mui/material/Button';
 import NavBar from '@/components/NavBar'
+import DashboardNavBar from '@/components/DashboardNavBar'
 
 export default function Dashboard() {
   return (
@@ -23,6 +24,7 @@ export default function Dashboard() {
         <Typography variant="h4" component="h1" sx={{ mb: 2 }}>
             Dashboard
         </Typography>
+        <DashboardNavBar />
         <Copyright />
         </Container>
     </>
