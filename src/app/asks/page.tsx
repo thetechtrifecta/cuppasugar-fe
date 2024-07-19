@@ -8,7 +8,7 @@ import Copyright from '@/components/Copyright';
 import Button from '@mui/material/Button';
 import NavBar from '@/components/NavBar'
 
-export default function Requests() {
+export default function Asks() {
   return (
     <>
       <NavBar />
@@ -21,7 +21,7 @@ export default function Requests() {
           alignItems: 'center',
         }}>
         <Typography variant="h4" component="h1" sx={{ mb: 2 }}>
-          Requests
+          Asks
         </Typography>
         <Copyright />
       </Container>

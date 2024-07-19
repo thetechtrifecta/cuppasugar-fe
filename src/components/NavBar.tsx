@@ -24,11 +24,11 @@ export default function NavBar() {
           <Button variant="contained" component={NextLink} href="/dashboard" sx={{ margin: .25 }}>
             Dashboard
           </Button>
-          <Button variant="contained" component={NextLink} href="/requests" sx={{ margin: .25 }}>
-            Requests
+          <Button variant="contained" component={NextLink} href="/asks" sx={{ margin: .25 }}>
+            Asks
           </Button>
-          <Button variant="contained" component={NextLink} href="/request" sx={{ margin: .25 }}>
-            Request
+          <Button variant="contained" component={NextLink} href="/ask" sx={{ margin: .25 }}>
+            Ask
           </Button>
           <Button variant="contained" component={NextLink} href="/signup" sx={{ margin: .25 }}>
             Signup
