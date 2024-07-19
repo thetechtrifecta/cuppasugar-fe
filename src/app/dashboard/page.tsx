@@ -8,23 +8,21 @@ import Copyright from '@/components/Copyright';
 import Button from '@mui/material/Button';
 import NavBar from '@/components/NavBar'
 
-export default function Home() {
+export default function Dashboard() {
   return (
-    <>
+    <Container
+      sx={{
+        my: 4,
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
+      }}>
       <NavBar />
-      <Container
-        sx={{
-          my: 4,
-          display: 'flex',
-          flexDirection: 'column',
-          justifyContent: 'center',
-          alignItems: 'center',
-        }}>
-        <Typography variant="h4" component="h1" sx={{ mb: 2 }}>
-          CuppaSugar MVP
-        </Typography>
-        <Copyright />
-      </Container>
-    </>
+      <Typography variant="h4" component="h1" sx={{ mb: 2 }}>
+        Dashboard
+      </Typography>
+      <Copyright />
+    </Container>
   );
 }
