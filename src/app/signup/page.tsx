@@ -83,6 +83,55 @@ export default function SignUp() {
                   autoComplete="phone"
                 />
               </Grid>
+              <Grid item xs={12}>
+                <TextField
+                  required
+                  fullWidth
+                  id="Address"
+                  label="Address"
+                  name="Address"
+                  autoComplete="Address"
+                />
+              </Grid>
+              <Grid item xs={12}>
+                <TextField
+                  required
+                  fullWidth
+                  id="Address 2"
+                  label="Address2"
+                  name="Address 2"
+                  autoComplete="Address 2"
+                />
+              </Grid>
+              <Grid item xs={12}>
+                <TextField
+                  required
+                  fullWidth
+                  id="city"
+                  label="City"
+                  name="city"
+                  autoComplete="city"
+                />
+              </Grid>
+              <Grid item xs={12} sm={6}>
+                <TextField
+                  name="State"
+                  required
+                  fullWidth
+                  id="State"
+                  label="State"
+                  autoFocus
+                />
+              </Grid>
+              <Grid item xs={12} sm={6}>
+                <TextField
+                  required
+                  fullWidth
+                  id="Zip Code"
+                  label="Zip Code"
+                  name="Zip Code"
+                />
+              </Grid>
               {/* <Grid item xs={12}>
                 <FormControlLabel
                   control={<Checkbox value="allowExtraEmails" color="primary" />}
