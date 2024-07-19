@@ -10,19 +10,21 @@ import NavBar from '@/components/NavBar'
 
 export default function Requests() {
   return (
-    <Container
-      sx={{
-        my: 4,
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'center',
-        alignItems: 'center',
-      }}>
+    <>
       <NavBar />
-      <Typography variant="h4" component="h1" sx={{ mb: 2 }}>
-        Requests
-      </Typography>
-      <Copyright />
-    </Container>
+      <Container
+        sx={{
+          my: 4,
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}>
+        <Typography variant="h4" component="h1" sx={{ mb: 2 }}>
+          Requests
+        </Typography>
+        <Copyright />
+      </Container>
+    </>
   );
 }
