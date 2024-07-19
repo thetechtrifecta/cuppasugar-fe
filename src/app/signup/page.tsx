@@ -110,7 +110,7 @@ export default function SignUp() {
                   id="city"
                   label="City"
                   name="city"
-                  autoComplete="city"
+                  autoComplete="City"
                 />
               </Grid>
               <Grid item xs={12} sm={6}>
@@ -120,7 +120,7 @@ export default function SignUp() {
                   fullWidth
                   id="State"
                   label="State"
-                  autoFocus
+                  autoComplete="State"
                 />
               </Grid>
               <Grid item xs={12} sm={6}>
@@ -130,6 +130,7 @@ export default function SignUp() {
                   id="Zip Code"
                   label="Zip Code"
                   name="Zip Code"
+                  autoComplete="Zip Code"
                 />
               </Grid>
               {/* <Grid item xs={12}>
