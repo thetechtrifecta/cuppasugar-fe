@@ -30,6 +30,9 @@ export default function NavBar() {
           <Button variant="contained" component={NextLink} href="/ask" sx={{ margin: .25 }}>
             Ask
           </Button>
+          <Button variant="contained" component={NextLink} href="/profile" sx={{ margin: .25 }}>
+            Profile
+          </Button>
           <Button variant="contained" component={NextLink} href="/signup" sx={{ margin: .25 }}>
             Signup
           </Button>
