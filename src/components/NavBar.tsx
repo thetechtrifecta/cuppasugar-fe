@@ -33,6 +33,9 @@ export default function NavBar() {
           <Button variant="contained" component={NextLink} href="/signin" sx={{ margin: .25 }}>
             Signin
           </Button>
+          <Button variant="contained" component={NextLink} href="sms:1234567?body=check out CuppaSugar!" sx={{ margin: .25 }}>
+            Share
+          </Button>
         </Box>
       </Box>
     </Container>
